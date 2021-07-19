@@ -7,7 +7,7 @@ h1{
 .peca{
     width: 100px;
     height: 100px;
-    background-color:beige;
+    background-color:#20B2AABB;
     border:1px solid gray;
     display: inline-block;
 }
@@ -15,4 +15,33 @@ h1{
 .estadio{
     text-align: center;
 }
+.o{
+position: relative;
+}
 
+.o:after{
+content:"\2716";
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top:0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+}
+
+.x{
+position: relative;
+    }
+    
+ .x:after{
+content:"\2B55";
+font-size: 50px;
+line-height: 100px;
+position: absolute;
+top:0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+    }
+    
