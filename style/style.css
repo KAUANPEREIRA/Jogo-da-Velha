@@ -1,0 +1,18 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*estadio o campo que fica o tabuleiro*/
+.peca{
+    width: 100px;
+    height: 100px;
+    background-color:beige;
+    border:1px solid gray;
+    display: inline-block;
+}
+
+.estadio{
+    text-align: center;
+}
+
