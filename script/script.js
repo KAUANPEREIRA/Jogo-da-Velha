@@ -16,7 +16,14 @@ document.addEventListener('DOMContentLoaded', () =>{
         let square = event.target
         let postion = square.id
 
-        handleMove(postion)
+        if(handleMove(postion)){
+            updateSquares()
+
+            setTimeout(()=>{
+                alert(`O Jogo acabou o vencedor foi o jogador  ${playerTime}`)
+            },10)
+            
+        }
         updateSquares()
     }
 
