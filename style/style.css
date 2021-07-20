@@ -4,7 +4,7 @@ h1{
 }
 
 /*estadio o campo que fica o tabuleiro*/
-.peca{
+.square{
     width: 100px;
     height: 100px;
     background-color:#20B2AABB;
@@ -16,7 +16,7 @@ h1{
     text-align: center;
 }
 
-/*
+
 .o{
 position: relative;
 }
@@ -47,4 +47,3 @@ right: 0px;
 bottom: 0px;
     }
     
-*/
