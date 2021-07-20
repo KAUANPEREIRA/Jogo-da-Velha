@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () =>{
             updateSquares()
 
             setTimeout(()=>{
-                alert(`O Jogo acabou o vencedor foi o jogador  ${playerTime}`)
+                alert(`O Jogo acabou o vencedor foi o jogador  ${playerTime +1}`)
             },10)
             
         }
