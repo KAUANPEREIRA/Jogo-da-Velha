@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () =>{
                resultado.innerHTML=`
                <div class="alert alert-success alert-dismissible centro">
                     <button type="button" class="close" data-dismiss="alert">&times;</button>
-                     O jogo acabou o vencedor foi o jogador ${playerTime +1}.
+                     Fim de jogo o vencedor foi o jogador ${playerTime +1}.
                 </div>
                
                `
