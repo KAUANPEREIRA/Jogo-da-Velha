@@ -5,6 +5,7 @@ let board=['','','','','','','','','']
 let playerTime = 0
 let simbols = ['o','x']
 let gameOver = false
+let resultado = document.querySelector('.resultado')
 
 function handleMove(position){
 

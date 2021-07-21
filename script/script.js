@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     
 
     squares.forEach((square)=>{
-        square.addEventListener('click', handleClick)
+        square.addEventListener('click', handleClick)//${playerTime +1}
     
     })
     
@@ -20,7 +20,13 @@ document.addEventListener('DOMContentLoaded', () =>{
             updateSquares()
 
             setTimeout(()=>{
-                alert(`O Jogo acabou o vencedor foi o jogador  ${playerTime +1}`)
+               resultado.innerHTML=`
+               <div class="alert alert-success alert-dismissible centro">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                     O jogo acabou o vencedor foi o jogador ${playerTime +1}.
+                </div>
+               
+               `
             },10)
             
         }

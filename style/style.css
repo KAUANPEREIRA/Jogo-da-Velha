@@ -4,6 +4,12 @@ h1{
 }
 
 /*estadio o campo que fica o tabuleiro*/
+
+.centro{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
 .square{
     width: 100px;
     height: 100px;
